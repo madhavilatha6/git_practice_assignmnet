@@ -1,13 +1,13 @@
-function Prime(abc) {
+function Prime(primenumber) {
 
-    if (abc === 2) {
+    if (primenumber === 2) {
       return true;
-    } else if (abc> 1) {
-      for (var i = 2; i < abc; i++) {
+    } else if (primenumber> 1) {
+      for (var i = 2; i < primenumber; i++) {
   
-        if (abc % i !== 0) {
+        if (primenumber % i !== 0) {
           return true;
-        } else if (abc === i * i) {
+        } else if (primenumber === i * i) {
           return false
         } else {
           return false;
